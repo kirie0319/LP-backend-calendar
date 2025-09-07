@@ -24,6 +24,13 @@ wheels/
 *.egg
 MANIFEST
 
+# 仮想環境
+venv/
+env/
+ENV/
+.venv/
+.env_backup
+
 # PyInstaller
 *.manifest
 *.spec
