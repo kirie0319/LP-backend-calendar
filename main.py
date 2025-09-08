@@ -11,7 +11,7 @@ app = FastAPI(title="OpenSlot.ai Email Collection API")
 # Configure CORS
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000", ],
+    allow_origins=["http://localhost:3000", "https://lp-frontend-calendar-6zaj.vercel.app"],
     allow_credentials=True,
     allow_methods=["POST"],
     allow_headers=["*"],
